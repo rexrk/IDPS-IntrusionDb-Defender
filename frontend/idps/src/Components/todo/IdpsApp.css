@@ -1,0 +1,246 @@
+/* General styling for labels, inputs, and buttons */
+label,
+input,
+button {
+  margin: 1px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+/* Footer */
+.footer {
+  bottom: 0;
+  position: absolute;
+  width: 90%;
+  height: 40px;
+}
+
+/* Welcome component */
+.welcomeComponent {
+  position: relative;
+  background-image: url("./assets/images/bg-presentation.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.text-container {
+  position: relative;
+  top: 20vh;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #808080;
+}
+
+/* Login component */
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoginForm {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.LoginForm h1 {
+  text-align: center;
+}
+
+.LoginForm div {
+  margin-bottom: 10px;
+}
+
+.LoginForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.LoginForm input[type="text"],
+.LoginForm input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.LoginForm button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.LoginForm button:hover {
+  background-color: #0056b3;
+}
+
+.errorMessage {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+/* Attacks component */
+.table-container {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.alert {
+  margin-bottom: 20px;
+}
+
+/* Dashboard */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Add application form */
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  width: 30%; /* Adjust as needed */
+  margin-right: 10px; /* Add space between label and input */
+  text-align: left;
+  font-weight: bold;
+}
+
+.input-field {
+  flex: 1; /* Fill remaining space */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+
+/* view application  */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.app-item div {
+  margin-bottom: 10px;
+}
+
+.app-item strong {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
